@@ -1,0 +1,12 @@
+
+
+.list {
+  margin: 0 auto;
+  box-sizing: border-box;
+  max-width: 1300px;
+  padding: 1rem;
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
+  gap: 1.5rem;
+}
+
